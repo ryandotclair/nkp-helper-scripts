@@ -37,11 +37,15 @@ Cluster names in the scripts match VM categories: `KubernetesClusterName` or `ku
 **Purpose:** List all VMs that have a Kubernetes cluster name and their associated PVCs (volume groups), CPU and Memory. Read-only; no deletions.
 
 **Output:** Tree-style report:
-
-- NKP Cluster name  
-  |_VM name | vCPU | Memory 
-    |_PVC name  
-
+```shell
+NKP Cluster name
+|_Controller Nodes
+| |_VM name ( vCPU | Memory )
+|   |_PVC name
+|_Worker Nodes
+  |_VM name ( vCPU | Memory )
+    |_PVC name
+```
 **Usage:**
 
 ```bash
