@@ -52,7 +52,7 @@ NKP Cluster name
 ./infrastructure-report.sh
 ```
 
-Use this to see which clusters/VMs/PVCs exist and to confirm the cluster name you will pass to the delete scripts.
+Use this to see which NKP clusters, and their mapping to infrastructure names.
 
 ---
 
