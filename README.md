@@ -4,6 +4,10 @@ These collection of scripts are designed to inspect and clean up Kubernetes-rela
 
 Tested against PC 7.3
 
+# Disclaimer
+
+These are not officially supported scripts. Use are your own risk.
+
 ## Prerequisites
 
 - **Bash** (scripts use `bash` and `set -uo pipefail`)
